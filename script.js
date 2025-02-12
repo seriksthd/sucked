@@ -1,14 +1,14 @@
 const wrapper = document.querySelector(".wrapper");
-const question = document.querySelector(".question");
-const gif = document.querySelector(".gif");
+// const question = document.querySelector(".question");
+// const gif = document.querySelector(".gif");
 const yesBtn = document.querySelector(".yes-btn");
 const noBtn = document.querySelector(".no-btn");
 
-yesBtn.addEventListener("click", () => {
-  question.innerHTML = "Yayyyyyyyyyyyyyyyyyyyyyyy";
-  gif.src =
-    "https://media.giphy.com/media/SjxtmBS267NOU/giphy.gif";
-});
+// yesBtn.addEventListener("click", () => {
+//   question.innerHTML = "Yayyyyyyyyyyyyyyyyyyyyyyy";
+//   gif.src =
+//     "https://media.giphy.com/media/SjxtmBS267NOU/giphy.gif";
+// });
 
 noBtn.addEventListener("mouseover", () => {
   const noBtnRect = noBtn.getBoundingClientRect();
